@@ -8,17 +8,16 @@
 import Foundation
 
 final class GIFListInteractor: GIFListInteractorInputProtocol {
-    
-    // MARK: - Public Properties
-    weak var presenter: GIFListInteractorOutputProtocol?
-    
+        
     // MARK: - Private Properties
     private var networkManager: NetworkManaging?
     private var gifService = GIFService()
+    private weak var presenter: GIFListInteractorOutputProtocol?
     
     // MARK: - Public Methods
-    func configure(networkManager: NetworkManaging) {
+    func configure(networkManager: NetworkManaging, presenter: GIFListInteractorOutputProtocol) {
         self.networkManager = networkManager
+        self.presenter = presenter
     }
     
     func searchGIFs(with keyword: String, page: Int, isPagination: Bool) {

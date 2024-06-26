@@ -15,18 +15,16 @@ final class GIFListRouter: GIFListRouterProtocol {
         let interactor = GIFListInteractor()
         let presenter = GIFListPresenter()
         let router = GIFListRouter()
+        let gifService = GIFService()
 
-        view.presenter = presenter
-        presenter.view = view
-        presenter.interactor = interactor
-        presenter.router = router
-        interactor.presenter = presenter
-        interactor.configure(networkManager: NetworkManager())
+        view.configure(presenter: presenter, gifService: gifService)
+        presenter.configure(view: view, interactor: interactor, router: router)
+        interactor.configure(networkManager: NetworkManager(), presenter: presenter)
         
         return view
     }
 
-    func navigateToGIFDetail(from view: GIFListViewProtocol?, with gif: GIFData) {
+    func navigateToGIFDetail(from view: GIFListPresenterOutput?, with gif: GIFData) {
         // Реализация навигации к деталям GIF будет здесь
     }
 }

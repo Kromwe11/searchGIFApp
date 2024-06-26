@@ -1,5 +1,5 @@
 //
-//  GIFListInteractorOutputProtocol.swift
+//  GIFListInteractorProtocol.swift
 //  searchGIFApp
 //
 //  Created by Висент Щепетков on 26.06.2024.

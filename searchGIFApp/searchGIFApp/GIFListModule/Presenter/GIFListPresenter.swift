@@ -9,15 +9,24 @@ import Foundation
 
 final class GIFListPresenter: GIFListPresenterProtocol {
     
-    // MARK: - Public Properties
-    weak var view: GIFListViewProtocol?
-    var interactor: GIFListInteractorInputProtocol?
-    var router: GIFListRouterProtocol?
-    
     // MARK: - Private Properties
     private var gifs: [GIFData] = []
     private var currentPage = 0
     private var currentKeyword = ""
+    private weak var view: GIFListPresenterOutput?
+    private var interactor: GIFListInteractorInputProtocol?
+    private var router: GIFListRouterProtocol?
+    
+    // MARK: - Configuration
+    func configure(
+        view: GIFListPresenterOutput,
+        interactor: GIFListInteractorInputProtocol,
+        router: GIFListRouterProtocol
+    ) {
+        self.view = view
+        self.interactor = interactor
+        self.router = router
+    }
     
     // MARK: - Public Methods
     func searchGIFs(with keyword: String) {

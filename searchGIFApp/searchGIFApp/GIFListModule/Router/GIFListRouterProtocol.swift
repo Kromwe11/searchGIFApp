@@ -17,5 +17,5 @@ protocol GIFListRouterProtocol: AnyObject {
     /// - Parameters:
     ///   - view: текущее представление
     ///   - gif: данные о GIF
-    func navigateToGIFDetail(from view: GIFListViewProtocol?, with gif: GIFData)
+    func navigateToGIFDetail(from view: GIFListPresenterOutput?, with gif: GIFData)
 }

@@ -18,14 +18,14 @@
 		E50081332C2B82BA0036009D /* GIFListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081322C2B82BA0036009D /* GIFListPresenter.swift */; };
 		E50081352C2B82D90036009D /* GIFListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081342C2B82D90036009D /* GIFListRouter.swift */; };
 		E50081372C2B83090036009D /* GIFListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081362C2B83090036009D /* GIFListViewController.swift */; };
-		E50081392C2B84C30036009D /* GIFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081382C2B84C30036009D /* GIFTableViewCell.swift */; };
-		E500813B2C2B84EB0036009D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500813A2C2B84EB0036009D /* UIImage+Extension.swift */; };
+		E50081392C2B84C30036009D /* GIFCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081382C2B84C30036009D /* GIFCollectionViewCell.swift */; };
 		E55F15F92C2BA6CF0043E79B /* GIFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F15F82C2BA6CF0043E79B /* GIFService.swift */; };
 		E55F15FB2C2BB6CF0043E79B /* NetworkManagingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F15FA2C2BB6CF0043E79B /* NetworkManagingProtocol.swift */; };
 		E55F15FD2C2BB6E40043E79B /* GIFListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F15FC2C2BB6E40043E79B /* GIFListRouterProtocol.swift */; };
 		E55F15FF2C2BB7000043E79B /* GIFListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F15FE2C2BB7000043E79B /* GIFListPresenterProtocol.swift */; };
-		E55F16012C2BB7180043E79B /* GIFListInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F16002C2BB7180043E79B /* GIFListInteractorOutputProtocol.swift */; };
+		E55F16012C2BB7180043E79B /* GIFListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F16002C2BB7180043E79B /* GIFListInteractorProtocol.swift */; };
 		E55F16032C2BB7360043E79B /* GIFListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F16022C2BB7360043E79B /* GIFListViewProtocol.swift */; };
+		E55F16222C2BF8250043E79B /* GIFServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F16212C2BF8250043E79B /* GIFServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,14 +44,14 @@
 		E50081322C2B82BA0036009D /* GIFListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListPresenter.swift; sourceTree = "<group>"; };
 		E50081342C2B82D90036009D /* GIFListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListRouter.swift; sourceTree = "<group>"; };
 		E50081362C2B83090036009D /* GIFListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListViewController.swift; sourceTree = "<group>"; };
-		E50081382C2B84C30036009D /* GIFTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFTableViewCell.swift; sourceTree = "<group>"; };
-		E500813A2C2B84EB0036009D /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E50081382C2B84C30036009D /* GIFCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFCollectionViewCell.swift; sourceTree = "<group>"; };
 		E55F15F82C2BA6CF0043E79B /* GIFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFService.swift; sourceTree = "<group>"; };
 		E55F15FA2C2BB6CF0043E79B /* NetworkManagingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagingProtocol.swift; sourceTree = "<group>"; };
 		E55F15FC2C2BB6E40043E79B /* GIFListRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListRouterProtocol.swift; sourceTree = "<group>"; };
 		E55F15FE2C2BB7000043E79B /* GIFListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListPresenterProtocol.swift; sourceTree = "<group>"; };
-		E55F16002C2BB7180043E79B /* GIFListInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListInteractorOutputProtocol.swift; sourceTree = "<group>"; };
+		E55F16002C2BB7180043E79B /* GIFListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListInteractorProtocol.swift; sourceTree = "<group>"; };
 		E55F16022C2BB7360043E79B /* GIFListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListViewProtocol.swift; sourceTree = "<group>"; };
+		E55F16212C2BF8250043E79B /* GIFServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,6 @@
 			children = (
 				E50081112C2B7FC30036009D /* AppDelegate.swift */,
 				E50081132C2B7FC30036009D /* SceneDelegate.swift */,
-				E500813C2C2B84F30036009D /* Extension */,
 				E500812D2C2B824B0036009D /* Managers */,
 				E50081252C2B804C0036009D /* GIFListModule */,
 				E500811A2C2B7FC40036009D /* Assets.xcassets */,
@@ -131,9 +130,8 @@
 		E50081262C2B80590036009D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E55F16022C2BB7360043E79B /* GIFListViewProtocol.swift */,
 				E50081362C2B83090036009D /* GIFListViewController.swift */,
-				E50081382C2B84C30036009D /* GIFTableViewCell.swift */,
+				E50081382C2B84C30036009D /* GIFCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,7 +139,7 @@
 		E50081272C2B80620036009D /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				E55F16002C2BB7180043E79B /* GIFListInteractorOutputProtocol.swift */,
+				E55F16002C2BB7180043E79B /* GIFListInteractorProtocol.swift */,
 				E50081302C2B82990036009D /* GIFListInteractor.swift */,
 			);
 			path = Interactor;
@@ -152,6 +150,7 @@
 			children = (
 				E55F15FE2C2BB7000043E79B /* GIFListPresenterProtocol.swift */,
 				E50081322C2B82BA0036009D /* GIFListPresenter.swift */,
+				E55F16022C2BB7360043E79B /* GIFListViewProtocol.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -176,19 +175,28 @@
 		E500812D2C2B824B0036009D /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				E55F15FA2C2BB6CF0043E79B /* NetworkManagingProtocol.swift */,
-				E500812E2C2B82660036009D /* NetworkManaging.swift */,
-				E55F15F82C2BA6CF0043E79B /* GIFService.swift */,
+				E55F161D2C2BE4B30043E79B /* GIFService */,
+				E55F161C2C2BE4950043E79B /* NetworkManaging */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		E500813C2C2B84F30036009D /* Extension */ = {
+		E55F161C2C2BE4950043E79B /* NetworkManaging */ = {
 			isa = PBXGroup;
 			children = (
-				E500813A2C2B84EB0036009D /* UIImage+Extension.swift */,
+				E55F15FA2C2BB6CF0043E79B /* NetworkManagingProtocol.swift */,
+				E500812E2C2B82660036009D /* NetworkManaging.swift */,
 			);
-			path = Extension;
+			path = NetworkManaging;
+			sourceTree = "<group>";
+		};
+		E55F161D2C2BE4B30043E79B /* GIFService */ = {
+			isa = PBXGroup;
+			children = (
+				E55F15F82C2BA6CF0043E79B /* GIFService.swift */,
+				E55F16212C2BF8250043E79B /* GIFServiceProtocol.swift */,
+			);
+			path = GIFService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,17 +300,17 @@
 				E50081352C2B82D90036009D /* GIFListRouter.swift in Sources */,
 				E55F16032C2BB7360043E79B /* GIFListViewProtocol.swift in Sources */,
 				E55F15FB2C2BB6CF0043E79B /* NetworkManagingProtocol.swift in Sources */,
-				E50081392C2B84C30036009D /* GIFTableViewCell.swift in Sources */,
+				E50081392C2B84C30036009D /* GIFCollectionViewCell.swift in Sources */,
 				E50081332C2B82BA0036009D /* GIFListPresenter.swift in Sources */,
-				E500813B2C2B84EB0036009D /* UIImage+Extension.swift in Sources */,
 				E500812F2C2B82660036009D /* NetworkManaging.swift in Sources */,
 				E50081122C2B7FC30036009D /* AppDelegate.swift in Sources */,
 				E55F15FF2C2BB7000043E79B /* GIFListPresenterProtocol.swift in Sources */,
 				E50081142C2B7FC30036009D /* SceneDelegate.swift in Sources */,
 				E55F15F92C2BA6CF0043E79B /* GIFService.swift in Sources */,
+				E55F16222C2BF8250043E79B /* GIFServiceProtocol.swift in Sources */,
 				E50081372C2B83090036009D /* GIFListViewController.swift in Sources */,
 				E50081312C2B82990036009D /* GIFListInteractor.swift in Sources */,
-				E55F16012C2BB7180043E79B /* GIFListInteractorOutputProtocol.swift in Sources */,
+				E55F16012C2BB7180043E79B /* GIFListInteractorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

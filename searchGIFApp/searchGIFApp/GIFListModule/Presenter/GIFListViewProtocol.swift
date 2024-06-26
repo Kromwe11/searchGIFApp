@@ -8,7 +8,7 @@
 import Foundation
 
 /// Протокол для отображения списка GIF
-protocol GIFListViewProtocol: AnyObject {
+protocol GIFListPresenterOutput: AnyObject {
     /// Отображает список GIF
     /// - Parameter gifs: массив GIF для отображения
     func showGIFs(_ gifs: [GIFData])

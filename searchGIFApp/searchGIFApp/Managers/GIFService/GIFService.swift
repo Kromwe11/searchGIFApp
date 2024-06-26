@@ -1,15 +1,32 @@
 //
-//  GIFService.swift
-//  searchGIFApp
+// GIFService.swift
+// searchGIFApp
 //
-//  Created by Висент Щепетков on 26.06.2024.
+// Created by Висент Щепетков on 26.06.2024.
 //
 
 import Foundation
+import SwiftGifOrigin
+import UIKit
 
-final class GIFService {
+final class GIFService: GIFServiceProtocol {
     
     // MARK: - Public Methods
+    func loadGif(url: URL, completion: @escaping (UIImage?) -> Void) {
+        DispatchQueue.global().async {
+            if let data = try? Data(contentsOf: url) {
+                let gifImage = UIImage.gif(data: data)
+                DispatchQueue.main.async {
+                    completion(gifImage)
+                }
+            } else {
+                DispatchQueue.main.async {
+                    completion(nil)
+                }
+            }
+        }
+    }
+    
     func downloadGIF(urlString: String, completion: @escaping (Result<URL, Error>) -> Void) {
         guard let url = URL(string: urlString) else {
             completion(.failure(NSError(domain: "Invalid URL", code: 400, userInfo: nil)))
