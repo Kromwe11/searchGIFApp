@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1A814B740B68ABC5A7328E /* libPods-searchGIFApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0203D07798C06A548C958B /* libPods-searchGIFApp.a */; };
 		E50081122C2B7FC30036009D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081112C2B7FC30036009D /* AppDelegate.swift */; };
 		E50081142C2B7FC30036009D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081132C2B7FC30036009D /* SceneDelegate.swift */; };
-		E50081162C2B7FC30036009D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081152C2B7FC30036009D /* ViewController.swift */; };
-		E50081192C2B7FC30036009D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50081172C2B7FC30036009D /* Main.storyboard */; };
 		E500811B2C2B7FC40036009D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E500811A2C2B7FC40036009D /* Assets.xcassets */; };
 		E500811E2C2B7FC40036009D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E500811C2C2B7FC40036009D /* LaunchScreen.storyboard */; };
+		E500812C2C2B82230036009D /* GIFEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500812B2C2B82230036009D /* GIFEntity.swift */; };
+		E500812F2C2B82660036009D /* NetworkManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500812E2C2B82660036009D /* NetworkManaging.swift */; };
+		E50081312C2B82990036009D /* GIFListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081302C2B82990036009D /* GIFListInteractor.swift */; };
+		E50081332C2B82BA0036009D /* GIFListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081322C2B82BA0036009D /* GIFListPresenter.swift */; };
+		E50081352C2B82D90036009D /* GIFListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081342C2B82D90036009D /* GIFListRouter.swift */; };
+		E50081372C2B83090036009D /* GIFListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081362C2B83090036009D /* GIFListViewController.swift */; };
+		E50081392C2B84C30036009D /* GIFCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50081382C2B84C30036009D /* GIFCollectionViewCell.swift */; };
+		E55F15F92C2BA6CF0043E79B /* GIFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F15F82C2BA6CF0043E79B /* GIFService.swift */; };
+		E55F15FB2C2BB6CF0043E79B /* NetworkManagingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F15FA2C2BB6CF0043E79B /* NetworkManagingProtocol.swift */; };
+		E55F15FD2C2BB6E40043E79B /* GIFListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F15FC2C2BB6E40043E79B /* GIFListRouterProtocol.swift */; };
+		E55F15FF2C2BB7000043E79B /* GIFListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F15FE2C2BB7000043E79B /* GIFListPresenterProtocol.swift */; };
+		E55F16012C2BB7180043E79B /* GIFListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F16002C2BB7180043E79B /* GIFListInteractorProtocol.swift */; };
+		E55F16032C2BB7360043E79B /* GIFListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F16022C2BB7360043E79B /* GIFListViewProtocol.swift */; };
+		E55F16222C2BF8250043E79B /* GIFServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55F16212C2BF8250043E79B /* GIFServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D8BC0C0F7933B1502B3ECD9 /* Pods-searchGIFApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchGIFApp.release.xcconfig"; path = "Target Support Files/Pods-searchGIFApp/Pods-searchGIFApp.release.xcconfig"; sourceTree = "<group>"; };
+		9B3D751A6496A32FF193CD29 /* Pods-searchGIFApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchGIFApp.debug.xcconfig"; path = "Target Support Files/Pods-searchGIFApp/Pods-searchGIFApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0203D07798C06A548C958B /* libPods-searchGIFApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-searchGIFApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E500810E2C2B7FC30036009D /* searchGIFApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchGIFApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50081112C2B7FC30036009D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E50081132C2B7FC30036009D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E50081152C2B7FC30036009D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E50081182C2B7FC30036009D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E500811A2C2B7FC40036009D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E500811D2C2B7FC40036009D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E500811F2C2B7FC40036009D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E500812B2C2B82230036009D /* GIFEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFEntity.swift; sourceTree = "<group>"; };
+		E500812E2C2B82660036009D /* NetworkManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManaging.swift; sourceTree = "<group>"; };
+		E50081302C2B82990036009D /* GIFListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListInteractor.swift; sourceTree = "<group>"; };
+		E50081322C2B82BA0036009D /* GIFListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListPresenter.swift; sourceTree = "<group>"; };
+		E50081342C2B82D90036009D /* GIFListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListRouter.swift; sourceTree = "<group>"; };
+		E50081362C2B83090036009D /* GIFListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListViewController.swift; sourceTree = "<group>"; };
+		E50081382C2B84C30036009D /* GIFCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFCollectionViewCell.swift; sourceTree = "<group>"; };
+		E55F15F82C2BA6CF0043E79B /* GIFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFService.swift; sourceTree = "<group>"; };
+		E55F15FA2C2BB6CF0043E79B /* NetworkManagingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagingProtocol.swift; sourceTree = "<group>"; };
+		E55F15FC2C2BB6E40043E79B /* GIFListRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListRouterProtocol.swift; sourceTree = "<group>"; };
+		E55F15FE2C2BB7000043E79B /* GIFListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListPresenterProtocol.swift; sourceTree = "<group>"; };
+		E55F16002C2BB7180043E79B /* GIFListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListInteractorProtocol.swift; sourceTree = "<group>"; };
+		E55F16022C2BB7360043E79B /* GIFListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFListViewProtocol.swift; sourceTree = "<group>"; };
+		E55F16212C2BF8250043E79B /* GIFServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1A814B740B68ABC5A7328E /* libPods-searchGIFApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76DCA0B369A849DA82235451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF0203D07798C06A548C958B /* libPods-searchGIFApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B73031EC8B3EBE8DCED78E00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B3D751A6496A32FF193CD29 /* Pods-searchGIFApp.debug.xcconfig */,
+				5D8BC0C0F7933B1502B3ECD9 /* Pods-searchGIFApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E50081052C2B7FC30036009D = {
 			isa = PBXGroup;
 			children = (
 				E50081102C2B7FC30036009D /* searchGIFApp */,
 				E500810F2C2B7FC30036009D /* Products */,
+				B73031EC8B3EBE8DCED78E00 /* Pods */,
+				76DCA0B369A849DA82235451 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +106,97 @@
 			children = (
 				E50081112C2B7FC30036009D /* AppDelegate.swift */,
 				E50081132C2B7FC30036009D /* SceneDelegate.swift */,
-				E50081152C2B7FC30036009D /* ViewController.swift */,
-				E50081172C2B7FC30036009D /* Main.storyboard */,
+				E500812D2C2B824B0036009D /* Managers */,
+				E50081252C2B804C0036009D /* GIFListModule */,
 				E500811A2C2B7FC40036009D /* Assets.xcassets */,
 				E500811C2C2B7FC40036009D /* LaunchScreen.storyboard */,
 				E500811F2C2B7FC40036009D /* Info.plist */,
 			);
 			path = searchGIFApp;
+			sourceTree = "<group>";
+		};
+		E50081252C2B804C0036009D /* GIFListModule */ = {
+			isa = PBXGroup;
+			children = (
+				E500812A2C2B80A40036009D /* Router */,
+				E50081292C2B80900036009D /* Entity */,
+				E50081282C2B80820036009D /* Presenter */,
+				E50081272C2B80620036009D /* Interactor */,
+				E50081262C2B80590036009D /* View */,
+			);
+			path = GIFListModule;
+			sourceTree = "<group>";
+		};
+		E50081262C2B80590036009D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E50081362C2B83090036009D /* GIFListViewController.swift */,
+				E50081382C2B84C30036009D /* GIFCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E50081272C2B80620036009D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E55F16002C2BB7180043E79B /* GIFListInteractorProtocol.swift */,
+				E50081302C2B82990036009D /* GIFListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E50081282C2B80820036009D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E55F15FE2C2BB7000043E79B /* GIFListPresenterProtocol.swift */,
+				E50081322C2B82BA0036009D /* GIFListPresenter.swift */,
+				E55F16022C2BB7360043E79B /* GIFListViewProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E50081292C2B80900036009D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E500812B2C2B82230036009D /* GIFEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E500812A2C2B80A40036009D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E55F15FC2C2BB6E40043E79B /* GIFListRouterProtocol.swift */,
+				E50081342C2B82D90036009D /* GIFListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E500812D2C2B824B0036009D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E55F161D2C2BE4B30043E79B /* GIFService */,
+				E55F161C2C2BE4950043E79B /* NetworkManaging */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E55F161C2C2BE4950043E79B /* NetworkManaging */ = {
+			isa = PBXGroup;
+			children = (
+				E55F15FA2C2BB6CF0043E79B /* NetworkManagingProtocol.swift */,
+				E500812E2C2B82660036009D /* NetworkManaging.swift */,
+			);
+			path = NetworkManaging;
+			sourceTree = "<group>";
+		};
+		E55F161D2C2BE4B30043E79B /* GIFService */ = {
+			isa = PBXGroup;
+			children = (
+				E55F15F82C2BA6CF0043E79B /* GIFService.swift */,
+				E55F16212C2BF8250043E79B /* GIFServiceProtocol.swift */,
+			);
+			path = GIFService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E50081222C2B7FC40036009D /* Build configuration list for PBXNativeTarget "searchGIFApp" */;
 			buildPhases = (
+				B530298BAFB853042EB5EC9B /* [CP] Check Pods Manifest.lock */,
 				E500810A2C2B7FC30036009D /* Sources */,
 				E500810B2C2B7FC30036009D /* Frameworks */,
 				E500810C2C2B7FC30036009D /* Resources */,
@@ -127,34 +260,63 @@
 			files = (
 				E500811E2C2B7FC40036009D /* LaunchScreen.storyboard in Resources */,
 				E500811B2C2B7FC40036009D /* Assets.xcassets in Resources */,
-				E50081192C2B7FC30036009D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B530298BAFB853042EB5EC9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-searchGIFApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E500810A2C2B7FC30036009D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E50081162C2B7FC30036009D /* ViewController.swift in Sources */,
+				E500812C2C2B82230036009D /* GIFEntity.swift in Sources */,
+				E55F15FD2C2BB6E40043E79B /* GIFListRouterProtocol.swift in Sources */,
+				E50081352C2B82D90036009D /* GIFListRouter.swift in Sources */,
+				E55F16032C2BB7360043E79B /* GIFListViewProtocol.swift in Sources */,
+				E55F15FB2C2BB6CF0043E79B /* NetworkManagingProtocol.swift in Sources */,
+				E50081392C2B84C30036009D /* GIFCollectionViewCell.swift in Sources */,
+				E50081332C2B82BA0036009D /* GIFListPresenter.swift in Sources */,
+				E500812F2C2B82660036009D /* NetworkManaging.swift in Sources */,
 				E50081122C2B7FC30036009D /* AppDelegate.swift in Sources */,
+				E55F15FF2C2BB7000043E79B /* GIFListPresenterProtocol.swift in Sources */,
 				E50081142C2B7FC30036009D /* SceneDelegate.swift in Sources */,
+				E55F15F92C2BA6CF0043E79B /* GIFService.swift in Sources */,
+				E55F16222C2BF8250043E79B /* GIFServiceProtocol.swift in Sources */,
+				E50081372C2B83090036009D /* GIFListViewController.swift in Sources */,
+				E50081312C2B82990036009D /* GIFListInteractor.swift in Sources */,
+				E55F16012C2BB7180043E79B /* GIFListInteractorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E50081172C2B7FC30036009D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E50081182C2B7FC30036009D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E500811C2C2B7FC40036009D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +449,7 @@
 		};
 		E50081232C2B7FC40036009D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3D751A6496A32FF193CD29 /* Pods-searchGIFApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,7 +460,6 @@
 				INFOPLIST_FILE = searchGIFApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +477,7 @@
 		};
 		E50081242C2B7FC40036009D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8BC0C0F7933B1502B3ECD9 /* Pods-searchGIFApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,7 +488,6 @@
 				INFOPLIST_FILE = searchGIFApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
